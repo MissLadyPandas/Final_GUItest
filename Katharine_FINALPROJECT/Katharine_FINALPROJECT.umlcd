@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_0y1EoFTkEe6Su_OSGC8xVQ">
+  <modelElement href="Katharine_FINALPROJECT.uml#_0yV8cFTkEe6Su_OSGC8xVQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_0_tDAFTkEe6Su_OSGC8xVQ" sourceAnchor="70.0,0.0" targetAnchor="72.0,118.0" superClass="_0_m8YFTkEe6Su_OSGC8xVQ" subClass="_0_uRIFTkEe6Su_OSGC8xVQ">
+    <modelElement href="Katharine_FINALPROJECT.uml#_08FHQFTkEe6Su_OSGC8xVQ"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0_m8YFTkEe6Su_OSGC8xVQ" name="FileHandler" abstractClass="true" subclassedBy="_0_tDAFTkEe6Su_OSGC8xVQ">
+    <modelElement href="Katharine_FINALPROJECT.uml#_070BgFTkEe6Su_OSGC8xVQ"/>
+    <visualProperties xmi:id="_0_m8YVTkEe6Su_OSGC8xVQ" position="-170.0,-190.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0_m8YlTkEe6Su_OSGC8xVQ" label="+"/>
+    <attributes xmi:id="_0_m8Y1TkEe6Su_OSGC8xVQ" name="filePath">
+      <modelElement href="Katharine_FINALPROJECT.uml#_08L08lTkEe6Su_OSGC8xVQ"/>
+      <stereotypes xmi:id="_0_m8ZFTkEe6Su_OSGC8xVQ" name="LegacyStyledElement">
+        <modelElement href="Katharine_FINALPROJECT.uml#_08McAFTkEe6Su_OSGC8xVQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0_m8ZVTkEe6Su_OSGC8xVQ" label="#"/>
+      <cardinality xmi:id="_0_m8ZlTkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0_m8Z1TkEe6Su_OSGC8xVQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0_m8aFTkEe6Su_OSGC8xVQ" name="delimiter">
+      <modelElement href="Katharine_FINALPROJECT.uml#_08McAVTkEe6Su_OSGC8xVQ"/>
+      <stereotypes xmi:id="_0_m8aVTkEe6Su_OSGC8xVQ" name="LegacyStyledElement">
+        <modelElement href="Katharine_FINALPROJECT.uml#_08McAlTkEe6Su_OSGC8xVQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0_m8alTkEe6Su_OSGC8xVQ" label="#"/>
+      <cardinality xmi:id="_0_m8a1TkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0_m8bFTkEe6Su_OSGC8xVQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0_m8bVTkEe6Su_OSGC8xVQ" abstractOperation="true" name="readFile">
+      <modelElement href="Katharine_FINALPROJECT.uml#_070okFTkEe6Su_OSGC8xVQ"/>
+      <visibility xmi:id="_0_m8blTkEe6Su_OSGC8xVQ" label="+"/>
+      <cardinality xmi:id="_0_m8b1TkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_0_m8cFTkEe6Su_OSGC8xVQ" abstractOperation="true" name="writeFile">
+      <modelElement href="Katharine_FINALPROJECT.uml#_071PoFTkEe6Su_OSGC8xVQ"/>
+      <visibility xmi:id="_0_m8cVTkEe6Su_OSGC8xVQ" label="+"/>
+      <cardinality xmi:id="_0_m8clTkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0_uRIFTkEe6Su_OSGC8xVQ" name="TextFileHandler" generalizations="_0_tDAFTkEe6Su_OSGC8xVQ">
+    <modelElement href="Katharine_FINALPROJECT.uml#_072dwFTkEe6Su_OSGC8xVQ"/>
+    <visualProperties xmi:id="_0_uRIVTkEe6Su_OSGC8xVQ" position="-168.0,-17.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0_uRIlTkEe6Su_OSGC8xVQ" label="+"/>
+    <operations xmi:id="_0_uRI1TkEe6Su_OSGC8xVQ" name="readFile">
+      <modelElement href="Katharine_FINALPROJECT.uml#_073E0FTkEe6Su_OSGC8xVQ"/>
+      <stereotypes xmi:id="_0_uRJFTkEe6Su_OSGC8xVQ" name="LegacyStyledElement">
+        <modelElement href="Katharine_FINALPROJECT.uml#_073r4FTkEe6Su_OSGC8xVQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0_uRJVTkEe6Su_OSGC8xVQ" name="Annotations">
+        <modelElement href="Katharine_FINALPROJECT.uml#_074S8FTkEe6Su_OSGC8xVQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0_uRJlTkEe6Su_OSGC8xVQ" label="+"/>
+      <cardinality xmi:id="_0_uRJ1TkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_0_uRKFTkEe6Su_OSGC8xVQ" name="writeFile">
+      <modelElement href="Katharine_FINALPROJECT.uml#_0746AVTkEe6Su_OSGC8xVQ"/>
+      <stereotypes xmi:id="_0_uRKVTkEe6Su_OSGC8xVQ" name="LegacyStyledElement">
+        <modelElement href="Katharine_FINALPROJECT.uml#_075hEFTkEe6Su_OSGC8xVQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_0_uRKlTkEe6Su_OSGC8xVQ" name="Annotations">
+        <modelElement href="Katharine_FINALPROJECT.uml#_075hEVTkEe6Su_OSGC8xVQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0_uRK1TkEe6Su_OSGC8xVQ" label="+"/>
+      <cardinality xmi:id="_0_uRLFTkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0_iD4FTkEe6Su_OSGC8xVQ" name="DiaryApp">
+    <modelElement href="Katharine_FINALPROJECT.uml#_07pCYFTkEe6Su_OSGC8xVQ"/>
+    <visualProperties xmi:id="_0_iD4VTkEe6Su_OSGC8xVQ" position="-401.0,85.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0_iD4lTkEe6Su_OSGC8xVQ" label="+"/>
+    <operations xmi:id="_0_iD41TkEe6Su_OSGC8xVQ" name="main" staticOperation="true">
+      <modelElement href="Katharine_FINALPROJECT.uml#_07tT0FTkEe6Su_OSGC8xVQ"/>
+      <visibility xmi:id="_0_iD5FTkEe6Su_OSGC8xVQ" label="+"/>
+      <cardinality xmi:id="_0_iD5VTkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0_iD5lTkEe6Su_OSGC8xVQ" name="args">
+        <modelElement href="Katharine_FINALPROJECT.uml#_07tT0VTkEe6Su_OSGC8xVQ"/>
+        <cardinality xmi:id="_0_iD51TkEe6Su_OSGC8xVQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_0_iD6FTkEe6Su_OSGC8xVQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0-XmQFTkEe6Su_OSGC8xVQ" name="User">
+    <modelElement href="Katharine_FINALPROJECT.uml#_076vMFTkEe6Su_OSGC8xVQ"/>
+    <visualProperties xmi:id="_0-XmQVTkEe6Su_OSGC8xVQ" position="-176.0,87.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0-XmQlTkEe6Su_OSGC8xVQ" label="+"/>
+    <attributes xmi:id="_0-XmQ1TkEe6Su_OSGC8xVQ" name="userID">
+      <modelElement href="Katharine_FINALPROJECT.uml#_08NDEFTkEe6Su_OSGC8xVQ"/>
+      <stereotypes xmi:id="_0-XmRFTkEe6Su_OSGC8xVQ" name="LegacyStyledElement">
+        <modelElement href="Katharine_FINALPROJECT.uml#_08NDEVTkEe6Su_OSGC8xVQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0-XmRVTkEe6Su_OSGC8xVQ" label="-"/>
+      <cardinality xmi:id="_0-XmRlTkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0-XmR1TkEe6Su_OSGC8xVQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0-XmSFTkEe6Su_OSGC8xVQ" name="username">
+      <modelElement href="Katharine_FINALPROJECT.uml#_08NDElTkEe6Su_OSGC8xVQ"/>
+      <stereotypes xmi:id="_0-XmSVTkEe6Su_OSGC8xVQ" name="LegacyStyledElement">
+        <modelElement href="Katharine_FINALPROJECT.uml#_08ORMFTkEe6Su_OSGC8xVQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0-XmSlTkEe6Su_OSGC8xVQ" label="-"/>
+      <cardinality xmi:id="_0-XmS1TkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0-XmTFTkEe6Su_OSGC8xVQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0-XmTVTkEe6Su_OSGC8xVQ" name="hashedPassword">
+      <modelElement href="Katharine_FINALPROJECT.uml#_08ORMVTkEe6Su_OSGC8xVQ"/>
+      <stereotypes xmi:id="_0-XmTlTkEe6Su_OSGC8xVQ" name="LegacyStyledElement">
+        <modelElement href="Katharine_FINALPROJECT.uml#_08ORMlTkEe6Su_OSGC8xVQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0-XmT1TkEe6Su_OSGC8xVQ" label="-"/>
+      <cardinality xmi:id="_0-XmUFTkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0-XmUVTkEe6Su_OSGC8xVQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0-XmUlTkEe6Su_OSGC8xVQ" name="email">
+      <modelElement href="Katharine_FINALPROJECT.uml#_08ORM1TkEe6Su_OSGC8xVQ"/>
+      <stereotypes xmi:id="_0-XmU1TkEe6Su_OSGC8xVQ" name="LegacyStyledElement">
+        <modelElement href="Katharine_FINALPROJECT.uml#_08O4QFTkEe6Su_OSGC8xVQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0-XmVFTkEe6Su_OSGC8xVQ" label="-"/>
+      <cardinality xmi:id="_0-XmVVTkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0-XmVlTkEe6Su_OSGC8xVQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0-XmV1TkEe6Su_OSGC8xVQ" name="dateCreated">
+      <modelElement href="Katharine_FINALPROJECT.uml#_08O4QVTkEe6Su_OSGC8xVQ"/>
+      <stereotypes xmi:id="_0-XmWFTkEe6Su_OSGC8xVQ" name="LegacyStyledElement">
+        <modelElement href="Katharine_FINALPROJECT.uml#_08O4QlTkEe6Su_OSGC8xVQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0-XmWVTkEe6Su_OSGC8xVQ" label="-"/>
+      <cardinality xmi:id="_0-XmWlTkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0-XmW1TkEe6Su_OSGC8xVQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0-XmXFTkEe6Su_OSGC8xVQ" name="login">
+      <modelElement href="Katharine_FINALPROJECT.uml#_078kYFTkEe6Su_OSGC8xVQ"/>
+      <visibility xmi:id="_0-XmXVTkEe6Su_OSGC8xVQ" label="+"/>
+      <cardinality xmi:id="_0-XmXlTkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_0-XmX1TkEe6Su_OSGC8xVQ" name="register">
+      <modelElement href="Katharine_FINALPROJECT.uml#_079LcFTkEe6Su_OSGC8xVQ"/>
+      <visibility xmi:id="_0-XmYFTkEe6Su_OSGC8xVQ" label="+"/>
+      <cardinality xmi:id="_0-XmYVTkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_0-XmYlTkEe6Su_OSGC8xVQ" name="updateProfile">
+      <modelElement href="Katharine_FINALPROJECT.uml#_079LcVTkEe6Su_OSGC8xVQ"/>
+      <visibility xmi:id="_0-XmY1TkEe6Su_OSGC8xVQ" label="+"/>
+      <cardinality xmi:id="_0-XmZFTkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0_-IwFTkEe6Su_OSGC8xVQ" name="DiaryEntry">
+    <modelElement href="Katharine_FINALPROJECT.uml#_07vwEFTkEe6Su_OSGC8xVQ"/>
+    <visualProperties xmi:id="_0_-IwVTkEe6Su_OSGC8xVQ" position="-389.0,-186.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_0_-IwlTkEe6Su_OSGC8xVQ" label="+"/>
+    <attributes xmi:id="_0_-Iw1TkEe6Su_OSGC8xVQ" name="entryID">
+      <modelElement href="Katharine_FINALPROJECT.uml#_08IKkFTkEe6Su_OSGC8xVQ"/>
+      <stereotypes xmi:id="_0_-IxFTkEe6Su_OSGC8xVQ" name="LegacyStyledElement">
+        <modelElement href="Katharine_FINALPROJECT.uml#_08IxoFTkEe6Su_OSGC8xVQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0_-IxVTkEe6Su_OSGC8xVQ" label="-"/>
+      <cardinality xmi:id="_0_-IxlTkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0_-Ix1TkEe6Su_OSGC8xVQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0_-IyFTkEe6Su_OSGC8xVQ" name="userID">
+      <modelElement href="Katharine_FINALPROJECT.uml#_08IxoVTkEe6Su_OSGC8xVQ"/>
+      <stereotypes xmi:id="_0_-IyVTkEe6Su_OSGC8xVQ" name="LegacyStyledElement">
+        <modelElement href="Katharine_FINALPROJECT.uml#_08JYsFTkEe6Su_OSGC8xVQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0_-IylTkEe6Su_OSGC8xVQ" label="-"/>
+      <cardinality xmi:id="_0_-Iy1TkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0_-IzFTkEe6Su_OSGC8xVQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0_-IzVTkEe6Su_OSGC8xVQ" name="title">
+      <modelElement href="Katharine_FINALPROJECT.uml#_08J_wFTkEe6Su_OSGC8xVQ"/>
+      <stereotypes xmi:id="_0_-IzlTkEe6Su_OSGC8xVQ" name="LegacyStyledElement">
+        <modelElement href="Katharine_FINALPROJECT.uml#_08J_wVTkEe6Su_OSGC8xVQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0_-Iz1TkEe6Su_OSGC8xVQ" label="-"/>
+      <cardinality xmi:id="_0_-I0FTkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0_-I0VTkEe6Su_OSGC8xVQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0_-v0FTkEe6Su_OSGC8xVQ" name="content">
+      <modelElement href="Katharine_FINALPROJECT.uml#_08Km0FTkEe6Su_OSGC8xVQ"/>
+      <stereotypes xmi:id="_0_-v0VTkEe6Su_OSGC8xVQ" name="LegacyStyledElement">
+        <modelElement href="Katharine_FINALPROJECT.uml#_08Km0VTkEe6Su_OSGC8xVQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0_-v0lTkEe6Su_OSGC8xVQ" label="-"/>
+      <cardinality xmi:id="_0_-v01TkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0_-v1FTkEe6Su_OSGC8xVQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0_-v1VTkEe6Su_OSGC8xVQ" name="dateCreated">
+      <modelElement href="Katharine_FINALPROJECT.uml#_08Km0lTkEe6Su_OSGC8xVQ"/>
+      <stereotypes xmi:id="_0_-v1lTkEe6Su_OSGC8xVQ" name="LegacyStyledElement">
+        <modelElement href="Katharine_FINALPROJECT.uml#_08LN4FTkEe6Su_OSGC8xVQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0_-v11TkEe6Su_OSGC8xVQ" label="-"/>
+      <cardinality xmi:id="_0_-v2FTkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0_-v2VTkEe6Su_OSGC8xVQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0_-v2lTkEe6Su_OSGC8xVQ" name="lastModified">
+      <modelElement href="Katharine_FINALPROJECT.uml#_08LN4VTkEe6Su_OSGC8xVQ"/>
+      <stereotypes xmi:id="_0_-v21TkEe6Su_OSGC8xVQ" name="LegacyStyledElement">
+        <modelElement href="Katharine_FINALPROJECT.uml#_08LN4lTkEe6Su_OSGC8xVQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0_-v3FTkEe6Su_OSGC8xVQ" label="-"/>
+      <cardinality xmi:id="_0_-v3VTkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0_-v3lTkEe6Su_OSGC8xVQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_0_-v31TkEe6Su_OSGC8xVQ" name="tags">
+      <modelElement href="Katharine_FINALPROJECT.uml#_08L08FTkEe6Su_OSGC8xVQ"/>
+      <stereotypes xmi:id="_0_-v4FTkEe6Su_OSGC8xVQ" name="LegacyStyledElement">
+        <modelElement href="Katharine_FINALPROJECT.uml#_08L08VTkEe6Su_OSGC8xVQ"/>
+      </stereotypes>
+      <visibility xmi:id="_0_-v4VTkEe6Su_OSGC8xVQ" label="-"/>
+      <cardinality xmi:id="_0_-v4lTkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+      <type xmi:id="_0_-v41TkEe6Su_OSGC8xVQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0_-v5FTkEe6Su_OSGC8xVQ" name="createEntry">
+      <modelElement href="Katharine_FINALPROJECT.uml#_07xlQFTkEe6Su_OSGC8xVQ"/>
+      <visibility xmi:id="_0_-v5VTkEe6Su_OSGC8xVQ" label="+"/>
+      <cardinality xmi:id="_0_-v5lTkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_0_-v51TkEe6Su_OSGC8xVQ" name="editEntry">
+      <modelElement href="Katharine_FINALPROJECT.uml#_07yMUFTkEe6Su_OSGC8xVQ"/>
+      <visibility xmi:id="_0_-v6FTkEe6Su_OSGC8xVQ" label="+"/>
+      <cardinality xmi:id="_0_-v6VTkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_0_-v6lTkEe6Su_OSGC8xVQ" name="deleteEntry">
+      <modelElement href="Katharine_FINALPROJECT.uml#_07yMUVTkEe6Su_OSGC8xVQ"/>
+      <visibility xmi:id="_0_-v61TkEe6Su_OSGC8xVQ" label="+"/>
+      <cardinality xmi:id="_0_-v7FTkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_0_-v7VTkEe6Su_OSGC8xVQ" name="searchEntries">
+      <modelElement href="Katharine_FINALPROJECT.uml#_07yMUlTkEe6Su_OSGC8xVQ"/>
+      <visibility xmi:id="_0_-v7lTkEe6Su_OSGC8xVQ" label="+"/>
+      <cardinality xmi:id="_0_-v71TkEe6Su_OSGC8xVQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_21-oIFTkEe6Su_OSGC8xVQ" name="NewClass1">
+    <modelElement href="Katharine_FINALPROJECT.uml#_21-BEFTkEe6Su_OSGC8xVQ"/>
+    <visualProperties xmi:id="_21-oIVTkEe6Su_OSGC8xVQ" position="-261.0,517.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_21-oIlTkEe6Su_OSGC8xVQ" label="+"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_0yV8cFTkEe6Su_OSGC8xVQ" name="Katharine_FINALPROJECT">
+    <eAnnotations xmi:id="_01D5QFTkEe6Su_OSGC8xVQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_01D5QVTkEe6Su_OSGC8xVQ" source="codegen">
+        <details xmi:id="_01D5QlTkEe6Su_OSGC8xVQ" key="codegenDirectory" value="/Katharine_FINALPROJECT/src"/>
+        <details xmi:id="_0-HHkFTkEe6Su_OSGC8xVQ" key="AssociatedSourceCode" value="/Katharine_FINALPROJECT/src/DiaryApp.java;3144385598/1;/Katharine_FINALPROJECT/src/DiaryEntry.java;3552171400/1;/Katharine_FINALPROJECT/src/FileHandler.java;593357838/1;/Katharine_FINALPROJECT/src/TextFileHandler.java;1470582746/1;/Katharine_FINALPROJECT/src/User.java;2788268021/1;/Katharine_FINALPROJECT/src/NewClass1.java;2944449853/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_07sFsFTkEe6Su_OSGC8xVQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_07sFsVTkEe6Su_OSGC8xVQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_07sFslTkEe6Su_OSGC8xVQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_07sFs1TkEe6Su_OSGC8xVQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_07sFtFTkEe6Su_OSGC8xVQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_07sswFTkEe6Su_OSGC8xVQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_07sswVTkEe6Su_OSGC8xVQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_07sswlTkEe6Su_OSGC8xVQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_07ssw1TkEe6Su_OSGC8xVQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_07pCYFTkEe6Su_OSGC8xVQ" name="DiaryApp">
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_08XbIFTkEe6Su_OSGC8xVQ" name="main" specification="_07tT0FTkEe6Su_OSGC8xVQ">
+        <ownedParameter xmi:id="_08XbIVTkEe6Su_OSGC8xVQ" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_08XbIlTkEe6Su_OSGC8xVQ" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>// Sample test cases for the functionalities can be added here&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_07tT0FTkEe6Su_OSGC8xVQ" name="main" isStatic="true" method="_08XbIFTkEe6Su_OSGC8xVQ">
+        <ownedParameter xmi:id="_07tT0VTkEe6Su_OSGC8xVQ" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_07uh8FTkEe6Su_OSGC8xVQ" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_07vwEFTkEe6Su_OSGC8xVQ" name="DiaryEntry">
+      <ownedAttribute xmi:id="_08IKkFTkEe6Su_OSGC8xVQ" name="entryID" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_08IxoVTkEe6Su_OSGC8xVQ" name="userID" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_08J_wFTkEe6Su_OSGC8xVQ" name="title" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_08Km0FTkEe6Su_OSGC8xVQ" name="content" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_08Km0lTkEe6Su_OSGC8xVQ" name="dateCreated" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_08LN4VTkEe6Su_OSGC8xVQ" name="lastModified" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_08L08FTkEe6Su_OSGC8xVQ" name="tags" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_08bskFTkEe6Su_OSGC8xVQ" name="createEntry" specification="_07xlQFTkEe6Su_OSGC8xVQ">
+        <language>java</language>
+        <body>// Logic for creating a new diary entry&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_08bskVTkEe6Su_OSGC8xVQ" name="editEntry" specification="_07yMUFTkEe6Su_OSGC8xVQ">
+        <language>java</language>
+        <body>// Logic for editing an existing diary entry&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_08bsklTkEe6Su_OSGC8xVQ" name="deleteEntry" specification="_07yMUVTkEe6Su_OSGC8xVQ">
+        <language>java</language>
+        <body>// Logic for deleting a diary entry&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_08bsk1TkEe6Su_OSGC8xVQ" name="searchEntries" specification="_07yMUlTkEe6Su_OSGC8xVQ">
+        <language>java</language>
+        <body>// Logic for searching diary entries&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_07xlQFTkEe6Su_OSGC8xVQ" name="createEntry" method="_08bskFTkEe6Su_OSGC8xVQ"/>
+      <ownedOperation xmi:id="_07yMUFTkEe6Su_OSGC8xVQ" name="editEntry" method="_08bskVTkEe6Su_OSGC8xVQ"/>
+      <ownedOperation xmi:id="_07yMUVTkEe6Su_OSGC8xVQ" name="deleteEntry" method="_08bsklTkEe6Su_OSGC8xVQ"/>
+      <ownedOperation xmi:id="_07yMUlTkEe6Su_OSGC8xVQ" name="searchEntries" method="_08bsk1TkEe6Su_OSGC8xVQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_070BgFTkEe6Su_OSGC8xVQ" name="FileHandler" isAbstract="true">
+      <ownedAttribute xmi:id="_08L08lTkEe6Su_OSGC8xVQ" name="filePath" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_08McAVTkEe6Su_OSGC8xVQ" name="delimiter" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_070okFTkEe6Su_OSGC8xVQ" name="readFile" isAbstract="true"/>
+      <ownedOperation xmi:id="_071PoFTkEe6Su_OSGC8xVQ" name="writeFile" isAbstract="true"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_072dwFTkEe6Su_OSGC8xVQ" name="TextFileHandler">
+      <generalization xmi:id="_08FHQFTkEe6Su_OSGC8xVQ" general="_070BgFTkEe6Su_OSGC8xVQ"/>
+      <ownedOperation xmi:id="_073E0FTkEe6Su_OSGC8xVQ" name="readFile"/>
+      <ownedOperation xmi:id="_0746AVTkEe6Su_OSGC8xVQ" name="writeFile"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_076vMFTkEe6Su_OSGC8xVQ" name="User">
+      <ownedAttribute xmi:id="_08NDEFTkEe6Su_OSGC8xVQ" name="userID" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_08NDElTkEe6Su_OSGC8xVQ" name="username" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_08ORMVTkEe6Su_OSGC8xVQ" name="hashedPassword" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_08ORM1TkEe6Su_OSGC8xVQ" name="email" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_08O4QVTkEe6Su_OSGC8xVQ" name="dateCreated" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_08cToFTkEe6Su_OSGC8xVQ" name="login" specification="_078kYFTkEe6Su_OSGC8xVQ">
+        <language>java</language>
+        <body>// Logic for login&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_08cToVTkEe6Su_OSGC8xVQ" name="register" specification="_079LcFTkEe6Su_OSGC8xVQ">
+        <language>java</language>
+        <body>// Logic for registration&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_08cTolTkEe6Su_OSGC8xVQ" name="updateProfile" specification="_079LcVTkEe6Su_OSGC8xVQ">
+        <language>java</language>
+        <body>// Logic for updating the user profile&#xD;
+ </body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_078kYFTkEe6Su_OSGC8xVQ" name="login" method="_08cToFTkEe6Su_OSGC8xVQ"/>
+      <ownedOperation xmi:id="_079LcFTkEe6Su_OSGC8xVQ" name="register" method="_08cToVTkEe6Su_OSGC8xVQ"/>
+      <ownedOperation xmi:id="_079LcVTkEe6Su_OSGC8xVQ" name="updateProfile" method="_08cTolTkEe6Su_OSGC8xVQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_21-BEFTkEe6Su_OSGC8xVQ" name="NewClass1"/>
+    <profileApplication xmi:id="_01EgUFTkEe6Su_OSGC8xVQ">
+      <eAnnotations xmi:id="_01EgUVTkEe6Su_OSGC8xVQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_01FucFTkEe6Su_OSGC8xVQ" base_Package="_0yV8cFTkEe6Su_OSGC8xVQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_073r4FTkEe6Su_OSGC8xVQ" base_Element="_073E0FTkEe6Su_OSGC8xVQ"/>
+  <UMLLabProfile:Annotations xmi:id="_074S8FTkEe6Su_OSGC8xVQ" base_Element="_073E0FTkEe6Su_OSGC8xVQ">
+    <annotations xmi:id="_0746AFTkEe6Su_OSGC8xVQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_075hEFTkEe6Su_OSGC8xVQ" base_Element="_0746AVTkEe6Su_OSGC8xVQ"/>
+  <UMLLabProfile:Annotations xmi:id="_075hEVTkEe6Su_OSGC8xVQ" base_Element="_0746AVTkEe6Su_OSGC8xVQ">
+    <annotations xmi:id="_075hElTkEe6Su_OSGC8xVQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_08IxoFTkEe6Su_OSGC8xVQ" base_Element="_08IKkFTkEe6Su_OSGC8xVQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_08JYsFTkEe6Su_OSGC8xVQ" base_Element="_08IxoVTkEe6Su_OSGC8xVQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_08J_wVTkEe6Su_OSGC8xVQ" base_Element="_08J_wFTkEe6Su_OSGC8xVQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_08Km0VTkEe6Su_OSGC8xVQ" base_Element="_08Km0FTkEe6Su_OSGC8xVQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_08LN4FTkEe6Su_OSGC8xVQ" base_Element="_08Km0lTkEe6Su_OSGC8xVQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_08LN4lTkEe6Su_OSGC8xVQ" base_Element="_08LN4VTkEe6Su_OSGC8xVQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_08L08VTkEe6Su_OSGC8xVQ" base_Element="_08L08FTkEe6Su_OSGC8xVQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_08McAFTkEe6Su_OSGC8xVQ" base_Element="_08L08lTkEe6Su_OSGC8xVQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_08McAlTkEe6Su_OSGC8xVQ" base_Element="_08McAVTkEe6Su_OSGC8xVQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_08NDEVTkEe6Su_OSGC8xVQ" base_Element="_08NDEFTkEe6Su_OSGC8xVQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_08ORMFTkEe6Su_OSGC8xVQ" base_Element="_08NDElTkEe6Su_OSGC8xVQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_08ORMlTkEe6Su_OSGC8xVQ" base_Element="_08ORMVTkEe6Su_OSGC8xVQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_08O4QFTkEe6Su_OSGC8xVQ" base_Element="_08ORM1TkEe6Su_OSGC8xVQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_08O4QlTkEe6Su_OSGC8xVQ" base_Element="_08O4QVTkEe6Su_OSGC8xVQ"/>
+</xmi:XMI>
